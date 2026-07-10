@@ -7,17 +7,25 @@ img{
 }
 .hed-section{
     display:flex;
-    justify-content: space-between;
-    flex-direction: left;
+    justify-content:flex-start;
+    align-items:center;
     background-color:#191922;
     font-family: "Roboto", sans-serif;
 }
 .logo{
     width:75px;
-    height:75px;
+    height:80px;
     padding:20px;
 }
 .nav-bar a{
     text-decoration:none;
     color:#ffffff; 
+    font-size:14px;
+}
+.nav-bar{
+ width:800px;
+ padding:10px 20px;
+ /* background-color: aliceblue; */
+ display: flex;
+ justify-content: space-between;
 }
